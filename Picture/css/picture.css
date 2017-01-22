@@ -1,0 +1,135 @@
+*,
+*:before,
+*:after{ box-sizing: border-box; }
+
+body {
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div {
+	margin: 0px;
+	padding: 0px;
+}
+
+h3{
+	margin-left: 35px;
+}
+
+.logo {
+	float:left;	
+}
+
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 70px;
+	color: darkblue;
+	font-size: 0.8em;
+	margin-bottom: 10px;
+}
+
+.sliderpicture {
+	margin-bottom: -7px;
+	position: relative;
+	font-family: Alegreya;
+	color: white;	
+}
+
+.sliderpicture h1 {
+	position: absolute;
+	top: 5%;
+	left: 25%;
+	font-size: 5em;
+	text-shadow: 2px 2px #000000;
+}
+
+.sliderpicture h2 {
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	font-size: 3em;	
+	text-shadow: 2px 2px #000000;	
+}
+
+.bluespaceslider {
+	background-color: #173493;
+	height: 130px;
+	width: 100%;	
+}
+
+.bluespaceslider p {
+		margin-bottom: -10px;
+		margin-top: 8px;
+		color: white;
+		font-size: 0.8em;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.icon {
+	margin-left: 100px;
+}
+
+.whitespacepictures {	
+
+}
+
+.picturesrow1 {
+	display: flex;
+	justify-content: center;
+	margin-top: 42px;	
+
+}
+
+.picturesrow2 {
+	display: flex;	
+	justify-content: center;
+	margin-bottom: 42px;
+}
+
+.pic {
+	width: 346px;
+	height: 280px;
+	overflow: hidden;
+	margin: 5px;
+}
+
+.bottomblue {
+	max-width: 1280px;
+	height: 420px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #173493;
+	color: white;
+	padding-top: 30px;	
+}
+
+.bottomblue h2 {
+	margin-left: 80px;
+	font-family: Alegreya;
+	font-size: 2.7em;
+	margin-bottom: 5px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.paragraph {
+	height: 250px;
+	width: 370px;
+	float: left;
+	margin-left: 30px;
+	line-height: 170%;
+
+}

@@ -54,6 +54,27 @@ h3{
 	text-shadow: 2px 2px #000000;	
 }
 
+.package {
+  background-color: #3B6B04;
+  position: absolute;
+  width: 220px;
+  height: 67px;
+  display: flex;
+  bottom: 5%;
+  left: 40%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  font-size: 23px;
+  font-weight: 700;
+  margin: 20px;
+  overflow: hidden;
+  -webkit-box-shadow: -6px 8px 84px 3px #b3adb3;
+  -moz-box-shadow: -6px 8px 84px 3px #b3adb3;
+  box-shadow: -6px 8px 84px 3px #b3adb3;
+}
+
 .bluespaceslider {
 	background-color: #173493;
 	height: 130px;
@@ -100,7 +121,30 @@ h3{
 	height: 280px;
 	overflow: hidden;
 	margin: 5px;
+	position: relative;
 }
+
+.shading {
+	position: absolute;
+	background-color: black;
+  	opacity: 0.3;
+	bottom: 0;
+	left: 0;
+	height: 68px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.shading p {
+	font-size: 28px;  
+  	font-family: 'Open Sans', sans-serif; 
+  	margin-bottom: 30px; 	
+  	color: rgba(255, 255, 255, 1);
+  	
+  	 
+ }
 
 .bottomblue {
 	max-width: 1280px;
